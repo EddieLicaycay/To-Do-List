@@ -93,12 +93,27 @@ margin-top: 100px;
 font-size: larger;
 }
 
+h3 {
+background: #f6a06f;
+width: fit-content;
+border-style: solid;
+}
+
+
+
 .CurrentToDo li {
-margin-bottom: 12px;
+margin-bottom: 15px;
+height: 25px;
+width: fit-content;
+box-shadow: 3px 5px 4px #493c3c99;
+background-color: #5aafd443;
 }
 
 .Completed + p {
 margin-left: 0px;
 margin-right: 50px;
 display: inline;
+display: inline;
+box-shadow: 3px 5px 4px #493c3c99;
+background-color: #5aafd443;
 }
