@@ -1,3 +1,15 @@
-h1 {
-background-color: purple ;
-}
+body {
+  background: linear-gradient(0.25turn, #5ab0d4, #d5cae7, #f6a06f);
+  }
+
+
+
+
+
+
+  .Completed + p {
+    /* Styles for the <p> element immediately following an input with class 'Completed' */
+    margin-left: 0px;
+    margin-right: 100px;
+    display: inline;
+  }

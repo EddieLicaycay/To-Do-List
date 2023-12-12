@@ -5,12 +5,36 @@
   <title>To-Do-List</title>
 </head>
 <body>
-  <h1>My Page</h1>
+  <div class="addingToDo">
+    <h1>ADD TO ALREADY LONG LIST OF "TO DO"</h1>
+    <form id="ToDoForm">
+      <input type="text" name="ToDoInput" placeholder="Add things to do here....">
+      <button type="submit" class="SubmitButton"> + </button>
+    </form>
+    <div class="addedToDo">
+      <h2>Newly Added To Do List:</h2>
+        <ul id="addedToDoList"></ul>
+    </div>
+  </div>
 
-
-
-
-
+<div class="existingToDo">
+<h3>Still on the List of To Do:</h3>
+  <section>
+      <ul>Do Laundry</ul>
+      <ul>Do Laundry</ul>
+      <ul>Do Laundry</ul>
+      <ul>Do Laundry</ul>
+  </section>
+<h3>Recently Completed Tasks:</h3>
+  <section id="CompletedToDo">
+    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
+    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
+    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p><br>
+    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
+    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
+    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
+  </section>
+</div>
 
 
 
