@@ -8,31 +8,36 @@
   <div class="addingToDo">
     <h1>ADD TO ALREADY LONG LIST OF "TO DO"</h1>
     <form id="ToDoForm">
-      <input type="text" name="ToDoInput" placeholder="Add things to do here....">
-      <button type="submit" class="SubmitButton"> + </button>
+      <input type="text" name="ToDoInput" id="text" placeholder="Add to do here....">
+      <button type="submit" class="SubmitButton"><strong>+</strong></button>
     </form>
     <div class="addedToDo">
       <h2>Newly Added To Do List:</h2>
-        <ul id="addedToDoList"></ul>
+      <ul>
+        <!--inputText.value goes here-->
+      </ul>
     </div>
   </div>
 
 <div class="existingToDo">
-<h3>Still on the List of To Do:</h3>
+<h3>Current List of To Do:</h3>
   <section>
-      <ul>Do Laundry</ul>
-      <ul>Do Laundry</ul>
-      <ul>Do Laundry</ul>
-      <ul>Do Laundry</ul>
+    <ul class="CurrentToDo">
+      <li>Christmas Gift Shopping</li>
+      <li>Do the Laundry</li>
+      <li>Mow the Lawn</li>
+      <li>Replace windown blinds</li>
+      <li>Sweep the House</li>
+    </ul>
   </section>
 <h3>Recently Completed Tasks:</h3>
   <section id="CompletedToDo">
-    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
-    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
-    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p><br>
-    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
-    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
-    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p>
+    <input type="checkbox" class="Completed" checked> <p>Put up Christmas Tree</p>
+    <input type="checkbox" class="Completed" checked> <p>Grocery Shopping</p>
+    <input type="checkbox" class="Completed" checked> <p>Feed the Dogs</p><br><br>
+    <input type="checkbox" class="Completed" checked> <p>Make breakfast</p>
+    <input type="checkbox" class="Completed" checked> <p>Hit the Gym</p>
+    <input type="checkbox" class="Completed" checked> <p>Feed the kid</p>
   </section>
 </div>
 
