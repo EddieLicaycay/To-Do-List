@@ -9,8 +9,9 @@ background: linear-gradient(0.25turn, #5ab0d4, #d5cae7, #f6a06f);
 }
 
 h1 {
-color: #a80b9b;
+color: #0d000cc5;
 margin-top: 50px;
+margin-left: 50px;
 }
 
 
@@ -26,6 +27,7 @@ height: 50px;
 border: none;
 outline: none;
 padding: 0 35px;
+cursor: auto;
 }
 
 form button {
@@ -34,12 +36,15 @@ height: 50px;
 color: #fff;
 background-color: #5ab0d4;
 outline: none;
+border: none;
 cursor: pointer;
 }
 
 h2 {
 margin-top: 30px;
 margin-bottom: 25px;
+margin-left: 50px;
+color: rgb(28, 28, 240);
 }
 
 .addedToDo {
@@ -63,7 +68,6 @@ cursor: pointer;
 display: block;
 margin: 5px 0;
 box-shadow: -3px 4px 2px #222;
-transition: 0.5s linear;
 }
 
 .addedToDo ul li span {
@@ -73,9 +77,9 @@ right: 0;
 width: 40px;
 text-align: center;
 background: red;
-
-
 }
+
+
 .addingToDo {
 display: flex;
 flex-direction: column;
