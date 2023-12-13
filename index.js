@@ -21,7 +21,7 @@ button.addEventListener('click', (x) => {
   () => {
     myLi.remove()
   });
-  myLi.appendChild(mySpan);
+  myLi.appendChild(mySpan); // adding the X to inout value
 
   // else, if nothing is placed in the box, return Invalid input
   } else {
